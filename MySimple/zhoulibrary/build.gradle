@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
-group='com.github.zhouchao1994315'
+group = 'com.github.zhouchao1994315'
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.1"
@@ -25,4 +25,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.0.1'
     compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile 'com.koushikdutta.ion:ion:2.+'
 }
